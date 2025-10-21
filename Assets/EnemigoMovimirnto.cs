@@ -34,7 +34,7 @@ public class EnemigoMovimirnto : MonoBehaviour
         {
             body.velocity = new Vector2(-1f * stats.runSpeed, body.velocity.y);
             spriteRender.flipX = true;
-            if (transform.position.x < stats.xMin && checkGround.isGrounded) // El enemigo pasa de direcion cuando 1, esta en el suelo 2. se ha salido del rango
+            if (transform.position.x < stats.xMin && checkGround.isGrounded) // El enemigo cambia de direcion cuando 1: esta en el suelo 2. se ha salido del rango
             {
                 direccion = false;
             }
