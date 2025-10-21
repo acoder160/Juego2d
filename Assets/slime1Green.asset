@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: slime1Green
   m_EditorClassIdentifier: 
   xMax: 48
-  xMin: -22
+  xMin: -53
   runSpeed: 10
   jumpSpeed: 10
