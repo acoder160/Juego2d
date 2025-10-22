@@ -55,9 +55,9 @@ public class NewBehaviourScript : MonoBehaviour
         if (Input.GetKey(KeyCode.Q) && (skillReady))
         {
             animator.SetTrigger("atack");
-            skillReady = false;
             counter = 0;
             skillCooldown.fillAmount = 1f;
+            skillReady = false;
         }
             if (checkParedLeft.checkEnemigo && (Time.time > lastActionTime + cooldown))
             {
