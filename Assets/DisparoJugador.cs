@@ -14,14 +14,11 @@ public class DisparoJugador : MonoBehaviour
     // Start is called before the first frame update
     void Update()
     {
-        if (Input.GetKey(KeyCode.Q) && player.skillReady)
-        {
-            disparo();
-        }
+        
 
     }
 
-    private void disparo()
+    public void disparo()
     {
 
         GameObject nuevaBala = Instantiate(bala, controladosDisparo.position, controladosDisparo.rotation);

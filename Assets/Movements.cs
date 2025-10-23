@@ -9,6 +9,7 @@ public class NewBehaviourScript : MonoBehaviour
     [SerializeField] float runSpeed = 15;
     [SerializeField] float jumpSpeed = 17;
     [SerializeField] int damageTaken = 1;
+    [SerializeField] DisparoJugador disparo;
     public CheckGround checkGround;
     public CheckParedLeft checkParedLeft;
     public CheckParedRight checkParedRight;
@@ -58,6 +59,7 @@ public class NewBehaviourScript : MonoBehaviour
             counter = 0;
             skillCooldown.fillAmount = 1f;
             skillReady = false;
+            disparo.disparo();
         }
             if (checkParedLeft.checkEnemigo && (Time.time > lastActionTime + cooldown))
             {
