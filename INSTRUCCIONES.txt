@@ -1,0 +1,10 @@
+w - saltar
+d - ir a la derecha
+a - ir a la izquierda
+s - acelerarse hacia abajo
+
+q - disparar (Tiene un tiempo de espera)
+e - abrir inventario:
+
+	click izquierdo: selecciona un item para ver descripcion
+	click derecho: usar el item seleccionado
